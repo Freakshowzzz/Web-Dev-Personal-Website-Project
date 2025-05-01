@@ -12,8 +12,9 @@ xl: 1280px -- larger wide desktop size
 
 /* Section Styles */
 @import "navbar.css";
-@import "logo.css";
-
+@import "main-banner.css";
+@import "body.css";
+@import "footer.css";
 /* Reset & Base Styles */
 * {
   margin: 0;
