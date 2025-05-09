@@ -1,7 +1,6 @@
 #header {
   background: #1a1919;
   width: 100%;
-  position: fixed;
   z-index: 1000;
 }
 
@@ -11,12 +10,14 @@
   align-items: center;
   padding: 20px 20px;
   color: #FFFFFF;
+  position: relative;
 }
+
 .logo {
   display: flex;
   align-items: center;
   width: 85px;
-  height: auto; 
+  height: auto;
 }
 
 .logo img {
@@ -39,12 +40,12 @@
   color: #FFFFFF;
   font-size: 16px;
   transition: color 0.3s ease, border-bottom 0.3s ease;
-  border-bottom: 1px solid transparent; 
+  border-bottom: 1px solid transparent;
 }
 
 .nav-links a:hover {
-  color: #0051e9; 
-  border-bottom: 1px solid #0051e9; 
+  color: #0051e9;
+  border-bottom: 1px solid #0051e9;
 }
 
 .menu-btn {
@@ -58,38 +59,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    background: #1a1919;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    padding: 10px 0;
-    z-index: 999;
-  }
-
-  .nav-links li {
-    margin: 10px 0;
-    text-align: center; 
-  }
-
-  .nav-links a {
-    font-size: 18px;
-    color: #FFFFFF;
-    padding: 10px 0;
-    display: block; 
-    border-bottom: 1px solid #333333;
-    transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
-  }
-
-  .nav-links a:hover {
-    background-color: #333333;
-    color: #0051e9;
-    border-bottom: 1px solid #0051e9; 
-  }
-
   .menu-btn {
     display: flex;
     color: #FFFFFF;
@@ -98,7 +67,41 @@
     align-items: center;
   }
 
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #1a1919;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
+    transition: max-height 0.4s ease-in-out;
+    z-index: 999;
+  }
+
   .menu-toggle:checked ~ .nav-links {
-    display: flex; 
+    max-height: 500px; 
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid #333333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    background-color: #333333;
+    color: #0051e9;
   }
 }
