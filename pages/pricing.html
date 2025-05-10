@@ -4,64 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimate Gaming Hub</title>
-    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/style.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header id="header">
-        <nav class="navbar container">
-           <div>
-            <div class="logo">
-              <a href="/index.html">
-                <img src="/assets/images/logo.png" alt="UGH Logo">
-              </a>
+  <header id="header">
+    <nav class="navbar container">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../assets/images/logo.png" alt="UGH Logo">
+        </a>
+      </div>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">☰</label>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pricing">
+      <div class="container pricing-container">
+        <div class="pricing-heading">
+          <h2>Hourly Rates</h2>
+          <p>Explore our affordable rates for internet access and gaming stations.</p>
+        </div>
+        <div class="cards-container">
+          <!-- Standard Rate -->
+          <div class="card-light">
+            <div class="card-header">
+              <h2>Standard Rate</h2>
+              <div class="card-body">
+                Ideal for casual users needing internet access.
+              </div>
+            
+              <div class="card-footer">
+                <h2>$5 per hour</h2>
+                <button class="dark-button">Choose Standard</button>
+              </div>
             </div>
           </div>
-            <input type="checkbox" class="menu-toggle" id="menu-toggle">
-            <label for="menu-toggle" class="menu-btn">☰</label>
-            <ul class="nav-links">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/about.html">About Us</a></li>
-                <li><a href="/pages/pricing.html">Pricing</a></li>
-                <li><a href="/pages/contact.html">Contact Us</a></li>
-            </ul> 
-        </nav>
-    </header>
-<body>
-
-
-    <div class="card-container">
-        <!-- Card 1 -->
-        <div class="card">
-          <div class="card-header">
-            <img src="./assets/image/hero-banner-image.jpg" alt="Card Image">
-            <h3>Card Title</h3>
+          <!-- Gaming Station Rate -->
+          <div class="card-dark">
+            <div class="card-header">
+              <h2>Gaming Station Rate</h2>
+              <div class="card-body">
+                Perfect for gamers looking for an immersive experience.
+              </div>
+              
+              <div class="card-footer">
+                <h2>$7 per hour</h2>
+                <button class="light-button">Choose Gaming</button>
+              </div>
+            </div>
           </div>
-
-          <div class="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod, veritatis officia corporis.
+          <!-- Discounted Rates -->
+          <div class="card-light">
+            <div class="card-header">
+              <h2>Discounted Rates</h2>
+              <div class="card-body">
+                Special offers for students and bulk purchases.
+              </div>
+              
+              <div class="card-footer">
+                <h2>Varies</h2>
+                <button class="dark-button">View Discounts</button>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer id="footer">
+    <p>© 2025 - Ultimate Gaming Hub. All rights reserved.</p>
+  </footer>
 
-          
-        <!-- Card 2 -->
-        <div class="card">
-          <div class="card-header">
-            <img src="./assets/image/hero-banner-image.jpg" alt="Card Image">
-            <h3>Card Title</h3>
-          </div>
-
-          <div class="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod, veritatis officia corporis.
-          </div>
-
-          
-        <!-- Card 3 -->
-        <div class="card">
-          <div class="card-header">
-            <img src="./assets/image/hero-banner-image.jpg" alt="Card Image">
-            <h3>Card Title</h3>
-          </div>
-          
 </body>
 </html>
