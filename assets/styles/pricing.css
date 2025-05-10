@@ -1,0 +1,16 @@
+#pricing {
+    padding: 60px 0;
+    background: #fafbfc;
+    text-align: center;
+  }
+  
+  .pricing-heading h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-heading p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
