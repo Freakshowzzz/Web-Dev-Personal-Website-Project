@@ -1,16 +1,120 @@
 #pricing {
-    padding: 60px 0;
-    background: #fafbfc;
-    text-align: center;
-  }
-  
-  .pricing-heading h2 {
-    font-size: 2.8rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .pricing-heading p {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-  }
+  background: #fdfdfd;
+  padding: 72px 20px;
+}
+
+.pricing-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card {
+  background: #2db7e0;
+  color: #0a0a0a;
+  border-radius: 10px;
+  width: 380px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+}
+
+.card-body {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.card-footer {
+  margin-top: auto;
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-footer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 32px 0 24px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#membership {
+  background: #000000;
+  padding: 72px 20px;
+
+}
