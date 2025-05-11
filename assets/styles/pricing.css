@@ -1,6 +1,7 @@
 #pricing {
   background: #fdfdfd;
   padding: 72px 20px;
+  height: 95vh;
 }
 
 .pricing-heading {
@@ -22,14 +23,28 @@
 }
 
 .card {
-  background: #2db7e0;
-  color: #0a0a0a;
+  padding: 32px 24px;
   border-radius: 10px;
   width: 380px;
   min-height: 420px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.card-standard {
+  background: #26aac2;
+  color: #0a0a0a;
+}
+
+.card-gaming {
+  background: #0dd470;
+  color: #0a0a0a;
+}
+
+.card-discount {
+  background: #850674;
+  color: #0a0a0a;
 }
 
 .card-header {
@@ -58,6 +73,14 @@
   font-size: 2rem;
   font-weight: bold;
   margin: 32px 0 24px 0;
+}
+
+.card-body hr {
+  margin: 24px auto 0 auto;
+  width: 70%;
+  max-width: 220px;
+  border: none;
+  border-bottom: 2px solid #222;
 }
 
 
@@ -116,5 +139,4 @@
 #membership {
   background: #000000;
   padding: 72px 20px;
-
 }
