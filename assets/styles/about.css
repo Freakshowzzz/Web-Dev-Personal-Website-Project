@@ -1,6 +1,5 @@
 #about {
   padding: 50px 20px;
-  height: 100vh;
 }
 
 .about-container {
@@ -47,6 +46,7 @@
 
 .about-image img {
   width: 100%;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
