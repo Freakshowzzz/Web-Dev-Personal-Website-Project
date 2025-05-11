@@ -1,7 +1,7 @@
 #pricing {
-  background: #fdfdfd;
+  background: #f0f2f5;
   padding: 72px 20px;
-  min-height: 95vh;
+  height: auto;
 }
 
 .pricing-heading {
@@ -33,17 +33,17 @@
 }
 
 .card-standard {
-  background: #26aac2;
+  background: #c40021;
   color: #0a0a0a;
 }
 
 .card-gaming {
-  background: #0dd470;
+  background: #08c265;
   color: #0a0a0a;
 }
 
 .card-discount {
-  background: #850674;
+  background: #0e48e6;
   color: #0a0a0a;
 }
 
