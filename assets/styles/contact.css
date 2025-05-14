@@ -29,21 +29,23 @@
     font-size: 1.1rem;
     margin-bottom: 24px;
   }
-  
+
   .contact-info ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
   }
   
   .contact-info li {
     font-size: 1rem;
     margin-bottom: 16px;
   }
-  
+
   .contact-info a {
     color: #111;
     text-decoration: underline;
+  }
+
+  .contact-info a:hover {
+    color: #0259dd;
   }
 
   .contact-form label {

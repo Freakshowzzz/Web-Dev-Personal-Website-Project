@@ -1,5 +1,5 @@
 #submission {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,5 +9,8 @@
   
   #submission h1 {
     font-size: 38px;
+    text-align: center;
   }
+
+
 

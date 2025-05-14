@@ -40,7 +40,7 @@
 
 .service-item:hover {
   background-color: #1a1a1a;
-  transform: scale(1.05);
+  transform: scale(1.05); 
 }
 
 .service-item img {
